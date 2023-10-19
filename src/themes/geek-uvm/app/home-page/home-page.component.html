@@ -1,0 +1,33 @@
+<!-- Mensaje inicial -->
+<div id="news-container">
+  <ds-home-news></ds-home-news>
+</div>
+<!-- Buscador  -->
+<div id="search-container">
+  <div class="container">
+    <ds-themed-search-form [inPlaceSearch]="false" [searchPlaceholder]="'home.search-form.placeholder' | translate"></ds-themed-search-form>
+  </div>
+</div>
+<!-- Comunidades -->
+<div id="communities-container">
+  <div class="container">
+    <h2>{{'home.top-level-communities.head' | translate}}</h2>
+    <div id="communities-list">
+      <a class="community-box" href="/communities/d8709794-40c6-46bc-91cb-191342dd7ff3" title="{{'home.uvm.comunidad.uvm' | translate}}">
+        <div class="community-name">{{'home.uvm.comunidad.uvm' | translate}}</div>
+      </a>
+      <a class="community-box" href="/communities/c35a1066-7027-49e5-8ef7-9b6b9e8d25e7" title="{{'home.uvm.escuelas' | translate}}">
+        <div class="community-name">{{'home.uvm.escuelas' | translate}}</div>
+      </a>
+    </div>
+  </div>
+</div>
+<!-- Envios recientes -->
+<div class="container">
+  <ds-recent-item-list *ngIf="recentSubmissionspageSize>0"></ds-recent-item-list>
+</div>
+<!--<ng-container *ngIf="(site$ | async) as site">
+    <ds-view-tracker [object]="site"></ds-view-tracker>
+  </ng-container>
+  <ds-themed-top-level-community-list></ds-themed-top-level-community-list>
+-->

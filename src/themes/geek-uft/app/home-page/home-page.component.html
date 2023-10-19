@@ -1,0 +1,91 @@
+<!--<div id="search-container">
+    <div class="container">
+    </div>
+</div>-->
+<!-- BANNER PRINCIPAL -->
+<div id="banner" class="masthead">
+  <div class="container">
+      <div class="banner_wrapper">
+          <div class="">
+              <h1 id="titulo" class="text-white font-weight-bold">Repositorio Institucional</h1>
+              <p id="bajada">Sistema de Bibliotecas Universidad Finis Terrae</p>
+          </div>
+          <div class="">
+              <form method="post" class="" id="ds-search-form" action="https://repositorio.uft.cl/xmlui/discover">
+                  <fieldset>
+                    <div class="input-group input-group-lg">
+                      <ds-themed-search-form [inPlaceSearch]="false" [searchPlaceholder]="'home.search-form.placeholder' | translate"></ds-themed-search-form>
+                    </div>
+                  </fieldset>
+              </form>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- ACERCA DE NOSOTROS -->
+<div id="nosotros" class="masthead">
+  <div class="container-fluid">
+    <div id="about">
+      <h2 id="texto" class="text-white mt-0">El Repositorio Institucional de la Universidad FinisTerrae, es gestionado por el Sistema de Bibliotecas y tiene por objetivo permitir el acceso libre a la producción académica e institucional de la Universidad, aumentando la visibilidad de sus contenidos y garantizando su conservación.</h2>
+    </div>
+  </div>
+</div>
+<div id="descripcion-image"></div>
+
+<!-- LISTADO DE COMUNIDADES -->
+<div id="comunidades" class="masthead">
+  <div class="container-fluid">
+      <div id="portfolio">
+          <div class="container-fluid">
+            <h2 id="texto">Nuestras Comunidades</h2>
+            <div id="contenedor_comunidades" class="">
+              <a class="community-box" href="https://repositorio.uft.cl/xmlui/handle/20.500.12254/2305" title="Facultad de Arquitectura y Diseño">
+                  <div class="project-name">Facultad de Arquitectura y Diseño</div>
+              </a>
+              <a class="community-box" href="https://repositorio.uft.cl/xmlui/handle/20.500.12254/2320" title="Facultad de Artes">
+                  <div class="project-name">Facultad de Artes</div>
+              </a>
+              <a class="community-box" href="https://repositorio.uft.cl/xmlui/handle/20.500.12254/2321" title="Facultad de Derecho">
+                  <div class="project-name">Facultad de Derecho</div>
+              </a>
+              <a class="community-box" href="https://repositorio.uft.cl/xmlui/handle/20.500.12254/2322" title="Facultad de Economía y Negocios">
+                  <div class="project-name">Facultad de Economía y Negocios</div>
+              </a>
+              <a class="community-box" href="https://repositorio.uft.cl/xmlui/handle/20.500.12254/2323" title="Facultad de Educación, Psicología y Familia">
+                  <div class="project-name">Facultad de Educación, Psicología y Familia</div>
+              </a>
+              <a class="community-box" href="https://repositorio.uft.cl/xmlui/handle/20.500.12254/2324" title="Facultad de Humanidades y Comunicaciones">
+                  <div class="project-name">Facultad de Humanidades y Comunicaciones</div>
+              </a>
+              <a class="community-box" href="https://repositorio.uft.cl/xmlui/handle/20.500.12254/2325" title="Facultad de Ingeniería">
+                  <div class="project-name">Facultad de Ingeniería</div>
+              </a>
+              <a class="community-box" href="https://repositorio.uft.cl/xmlui/handle/20.500.12254/2326" title="Facultad de Medicina">
+                  <div class="project-name">Facultad de Medicina</div>
+              </a>
+              <a class="community-box" href="https://repositorio.uft.cl/xmlui/handle/20.500.12254/2327" title="Facultad de Odontología">
+                  <div class="project-name">Facultad de Odontología</div>
+              </a>
+              <a class="community-box" href="https://repositorio.uft.cl/xmlui/handle/20.500.12254/2328" title="Instituto Escuela de la Fe">
+                  <div class="project-name">Instituto Escuela de la Fe</div>
+              </a>                            
+            </div>
+          </div>
+      </div>
+  </div>
+</div>
+<!-- ENVIOS RECIENTES -->
+
+<div id="recientes" class="masthead">
+  <div class="container">
+    <ds-recent-item-list *ngIf="recentSubmissionspageSize>0"></ds-recent-item-list>
+  </div>
+</div>
+  <!--<ng-container *ngIf="(site$ | async) as site">
+      <ds-view-tracker [object]="site"></ds-view-tracker>
+    </ng-container>
+    <ds-themed-top-level-community-list></ds-themed-top-level-community-list>
+  -->
+    
+  

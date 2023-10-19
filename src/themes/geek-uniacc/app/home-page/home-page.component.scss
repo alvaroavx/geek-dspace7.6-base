@@ -1,0 +1,38 @@
+h2 {
+    text-align: center;
+}
+/* Buscador principal */
+#search-container {
+    background-color: black;
+    padding: 90px;
+    margin-bottom: 20px;
+    margin-top: -25px;
+}
+/* Listado de comunidades */
+#communities-container {
+    margin: 40px 0 20px;
+}
+#communities-list {
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    background-size: cover;
+    margin: 0 auto;
+    justify-content: center;
+}
+a.community-box {
+    background: var(--uniacc-celeste);
+    min-width: 300px;
+    max-width: 300px;
+    max-height: 100px;
+    color: #fff;
+    padding: 30px 20px;
+    margin: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+a.community-box:active,
+a.community-box:hover,
+a.community-box:focus {
+    background: var(--uniacc-celeste-oscuro);
+}

@@ -1,0 +1,70 @@
+footer.footer {
+    color: white;
+    background-color: var(--azul-header);
+    margin: 0;
+}
+#opengeek {
+    visibility: hidden;
+}
+.footer-container {
+	display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+.footer-panel {
+	width: calc(100%*1/6);
+	min-width: 200px;
+	float: left;
+	padding: 20px 40px;
+}
+.footer-panel h3 {
+	font-size: 18px;
+    line-height: 22px;
+	margin-bottom: 25px;
+	font-weight: bold;
+    text-align: left;
+}
+.footer-panel ul {
+	padding: 0;
+	list-style: none;
+    text-align: left;
+}
+.footer-panel ul li {
+	line-height: 26px;
+}
+.footer-panel ul a {
+	color: #dcdcdc;
+	text-decoration: none;
+}
+.footer-panel ul a:hover,
+.footer-panel ul a:focus,
+.footer-panel ul a:active {
+	color: #337ab7;
+}
+.footer-panel .social {
+	width: 100%;
+	margin-top: 20px;
+    margin-bottom: 40px;
+}
+.footer-panel .social span {
+	margin-right: 10px;
+}
+.footer-panel .acreditacion {
+	margin-top: 20px;
+	max-width: 200px;
+}
+.footer-panel .gratuidad {
+	margin-top: 0px;
+    max-width: 200px;
+}
+.rrss {
+    background-color: #20315c;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 40px;
+    margin-top: 0px;
+}

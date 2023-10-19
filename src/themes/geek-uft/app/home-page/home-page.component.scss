@@ -1,0 +1,67 @@
+/* Banner principal */
+#banner {
+	background: url(../../assets/images/bg-masthead.jpg);
+    -moz-box-shadow: 10px 10px 5px #ccc;
+    -webkit-box-shadow: 1000px 1000px 5px #ccc;
+    box-shadow: 10px 10px 5px #ccc;
+	height: 900px;
+    margin-top: -30px;
+}
+.banner_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 900px;
+}
+#titulo {
+    font-size: 64px;
+    color: #fff;
+}
+#bajada {
+    color: #fff;
+    text-align: center;
+    font-size: 26px;
+}
+
+/* Nosotros */
+#nosotros {
+    background: #337AB7;
+	padding: 0;
+}
+/* Nuestras comunidades */
+#comunidades {
+    background: #fff;
+    box-shadow: none;
+    padding-bottom: 90px;
+}
+#contenedor_comunidades {
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    background-size: cover;
+    margin: 0 auto;
+    justify-content: center;
+}
+#contenedor_comunidades a {
+    background: #337AB7;
+    min-width: 300px;
+    max-width: 300px;
+    max-height: 100px;
+    color: #fff;
+    padding: 30px 20px;
+    margin: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+#contenedor_comunidades a:active,
+#contenedor_comunidades a:focus,
+#contenedor_comunidades a:hover {
+    background: #00284F;
+}
+/* Envios Recientes */
+#recientes {
+    background: var(--azul-header);
+    padding: 40px 0;
+    margin-bottom: -25px;
+}

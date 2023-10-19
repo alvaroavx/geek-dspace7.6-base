@@ -1,0 +1,17 @@
+// Override or add CSS variables for your theme here
+
+:root {
+  --ds-header-logo-height: 40px;
+  --ds-banner-text-background: rgba(0, 0, 0, 0.45);
+  --ds-banner-background-gradient-width: 300px;
+  --ds-home-news-link-color: #{$green};
+  --ds-home-news-link-hover-color: #{darken($green, 15%)};
+  --ds-header-navbar-border-bottom-color: #{$green};
+  // UVM
+  --ds-header-navbar-border-top-color:  #fff;
+  --ds-header-icon-color: #207698;
+  --uvm-gris: #5B6770;
+  --uvm-gris-oscuro: #606062;
+  --uvm-gris-oscuro2: #464647;
+}
+

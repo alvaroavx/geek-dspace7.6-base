@@ -1,0 +1,24 @@
+{
+  "browse.comcol.by.srsc": "By subject category",
+  "browse.metadata.srsc.breadcrumbs": "Browse by subject category",
+  "community.sub-collection-list.head": "Select",
+  "community.sub-community-list.head": "Select",
+  "dso-selector.set-scope.community.button": "Search the entire Repository",
+  "home.top-level-communities.head": "Communities in Repository",
+  "login.form.header": "Log in to Repository",
+  "logout.form.header": "Log out from Repository",
+  "menu.section.browse_global": "All of Repository",
+  "menu.section.browse_global_by_srsc": "By subject category",
+  "mydspace.title": "My Repository",
+  "nav.browse.header": "All of Repository",
+  "nav.mydspace": "My Repository",
+  "repository.title.prefix": "UVM Repository :: ",
+  "repository.title.prefixDSpace": "UVM Repository ::",
+  "search.form.scope.all": "All of Repository",
+  "submission.import-external.back-to-my-dspace": "Back to Repository",
+  "title": "Repository",
+  /* UVM */
+  "home.uvm.comunidad.uvm": "UVM Community",
+  "home.uvm.escuelas": "Schools, Departments and Centers",
+
+}

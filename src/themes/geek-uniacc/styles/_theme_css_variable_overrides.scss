@@ -1,0 +1,17 @@
+// Override or add CSS variables for your theme here
+
+:root {
+  --ds-header-logo-height: 40px;
+  --ds-banner-text-background: rgba(0, 0, 0, 0.45);
+  --ds-banner-background-gradient-width: 300px;
+  --ds-home-news-link-color: #{$green};
+  --ds-home-news-link-hover-color: #{darken($green, 15%)};
+  --ds-header-navbar-border-bottom-color: #{$green};
+  // UNIACC
+  --ds-header-navbar-border-top-color:  #fff;
+  --uniacc-negro: #3B3B3B;
+  --uniacc-celeste: #2FA8E1;
+  --uniacc-celeste-oscuro: #337AB7;
+  --ds-header-icon-color: #207698;
+}
+

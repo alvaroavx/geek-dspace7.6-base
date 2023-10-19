@@ -1,0 +1,65 @@
+// Add any global css for the theme here
+
+// imports the base global style
+@import '../../../styles/_global-styles.scss';
+
+.facet-filter, .setting-option {
+  background-color: var(--bs-light);
+  border-radius: var(--bs-border-radius);
+
+  &.p-3 {
+    // Needs !important because the original bootstrap class uses it
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+  }
+
+  .badge-secondary {
+    background-color: var(--bs-primary);
+  }
+
+  h5 {
+    font-size: 1.1rem
+  }
+}
+// UVM
+// Opciones del navbar
+.navbar-nav a.nav-link,
+.navbar-nav a.nav-item,
+button.submit-icon,
+a.dropdown-toggle,
+a.dropdownLogin {
+    color: black !important;
+}
+.navbar-nav a.nav-item:hover,
+.navbar-nav a.nav-item:focus {
+  text-decoration: underline;
+}
+// home search form
+button.search-button {
+  background-color: var(--uvm-gris-oscuro);
+  border-radius: 0px;
+  border-color: var(--uvm-gris-oscuro2);
+  box-shadow: none;
+}
+button.search-button:hover,
+button.search-button:focus {
+  background-color: black;
+}
+.form-control {
+  border-radius: 0px;
+  box-shadow: none;
+}
+// breadcrumbs
+nav.nav-breadcrumb,
+ol.breadcrumb {
+  background-color: var(--uvm-gris) !important;
+}
+ol.breadcrumb li a,
+.breadcrumb-item + .breadcrumb-item::before,
+li.breadcrumb-item.active {
+  color: white !important;
+}
+// registros 
+.simple-view-element-header {
+  font-weight: 600;
+}
